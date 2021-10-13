@@ -1,0 +1,93 @@
+$ sudo yum update -y
+```
+
+$ sudo hostnamectl set-hostname jenkins-server
+```
+
+$ bash
+```
+
+$ sudo amazon-linux-extras install java-openjdk11 -y
+```
+
+$ java -version
+```
+
+$ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+```
+
+$ sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+```
+
+$ sudo amazon-linux-extras install epel
+```
+
+$ sudo yum install jenkins -y
+```
+
+$ sudo systemctl start jenkins
+```
+
+$ sudo systemctl enable jenkins
+```
+
+$ sudo systemctl enable jenkins
+```
+
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+$ Jenkins configure
+
+git config --global user.email
+
+sudo usermod -s /bin/bash jenkins
+sudo su - jenkins
+whoami
+1  whoami
+    2  cd
+    3  pwd
+    4  ls
+    5  cd workspace
+    6  ls
+    7  cd Package-Application/
+    8  ls
+git config --global user.name Jason-hub77
+git config --global user.email ofcavlazoglu@gmail.com
+
+$ 
+$ 
+$ 
+$
+$ 
+$ 
+$ 
+$ 
+$ 
+```
+
+export PS1="\[\e[36m\]\u\[\e[m\]@\h-\w:\[\e[31m\]\\$\[\e[m\] "
+
+volume
+```
+$ 
+```
+$ 
+```
+$ 
+```
+$ 
+```
+$ 
+```
+sudo yum update -y
+sudo amazon-linux-extras install java-openjdk11 -y
+java -version
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+sudo amazon-linux-extras install epel
+sudo yum install jenkins -y
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl status jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
